@@ -1,0 +1,18 @@
+
+//Module name will become the java
+//package name for the generated files
+module persons
+{ 
+
+	//we define topics as C++ structure
+	struct Person
+         {
+		long id; // ID of the person
+		string name; // Name of the person
+		short age; //age of the person
+	 };
+
+//Topic key
+#pragma keylist Person id
+
+};
